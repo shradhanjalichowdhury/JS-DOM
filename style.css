@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(116, 50, 163);
+}
+h2{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#flex-button {
+    margin-top: 20px;
+}
